@@ -29,7 +29,7 @@
         <div class="card">
             <div class="card-body login-card-body shadow-100">
                 <p class="login-box-msg mt-1 mb-1">{{ __('admin.welcome_back') }}</p>
-
+                <p class="login-box-msg mt-1 mb-1">{{ __('admin.welcome_back') }}</p>
                 <form id="login-form" method="POST" action="{{ admin_url('auth/login') }}">
 
                     <input type="hidden" name="_token" value="{{ csrf_token() }}"/>
